@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Наши услуги - веб-разработка, мобильные приложения, дизайн и SEO">
+    <title>Услуги - ModernWeb</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader-spinner"></div>
+    </div>
+
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <a href="/" class="logo">ModernWeb</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">О нас</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link active">Услуги</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Контакты</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title animate-fade-up">Наши услуги</h1>
+            <p class="page-subtitle animate-fade-up" data-delay="200">Комплексные решения для цифрового развития вашего бизнеса</p>
+        </div>
+    </section>
+
+    <section class="services-full">
+        <div class="container">
+            <div id="services-full-container" class="services-grid">
+                <!-- Services loaded from API -->
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ModernWeb</h3>
+                    <p>Создаем цифровые решения, которые работают на результат.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>Email: info@modernweb.com</p>
+                    <p>Телефон: +7 (999) 123-45-67</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 N-code Team. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

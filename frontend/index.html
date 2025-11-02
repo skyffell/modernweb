@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Современная веб-студия - создание инновационных решений для вашего бизнеса">
+    <meta name="keywords" content="веб-разработка, дизайн, мобильные приложения, SEO">
+    <title>ModernWeb - Инновационные цифровые решения</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <a href="/" class="logo">ModernWeb</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="/" class="nav-link active">Главная</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">О нас</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Услуги</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Контакты</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-up">
+                Создаем цифровое будущее
+            </h1>
+            <p class="hero-subtitle animate-fade-up" data-delay="200">
+                Инновационные решения для вашего бизнеса с использованием передовых технологий
+            </p>
+            <div class="hero-buttons animate-fade-up" data-delay="400">
+                <a href="services.html" class="btn btn-primary">Наши услуги</a>
+                <a href="contact.html" class="btn btn-secondary">Связаться с нами</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Почему выбирают нас</h2>
+            <div class="features-grid">
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Скорость</h3>
+                    <p>Быстрая разработка и высокая производительность всех решений</p>
+                </div>
+                <div class="feature-card animate-on-scroll" data-delay="100">
+                    <div class="feature-icon">💡</div>
+                    <h3>Инновации</h3>
+                    <p>Используем самые современные технологии и подходы</p>
+                </div>
+                <div class="feature-card animate-on-scroll" data-delay="200">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Надежность</h3>
+                    <p>Гарантируем стабильную работу и безопасность ваших проектов</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="services-preview">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Наши услуги</h2>
+            <div id="services-container" class="services-grid">
+                <!-- Services will be loaded from API -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content animate-on-scroll">
+                <h2>Готовы начать проект?</h2>
+                <p>Свяжитесь с нами для бесплатной консультации</p>
+                <a href="/contact.html" class="btn btn-primary btn-large">Начать сейчас</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ModernWeb</h3>
+                    <p>Создаем цифровые решения, которые работают на результат.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="/">Главная</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>Email: info@modernweb.com</p>
+                    <p>Телефон: +7 (999) 123-45-67</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 N-code Team. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
